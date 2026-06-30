@@ -516,6 +516,14 @@
   .reveal { opacity: 0; transform: translateY(28px); transition: opacity .6s ease, transform .6s ease; }
   .reveal.visible { opacity: 1; transform: translateY(0); }
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5BNK6S81R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-5BNK6S81R');
+</script>
 </head>
 <body>
 
@@ -533,7 +541,7 @@
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#reviews">Reviews</a></li>
   </ul>
-  <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="nav-cta">Get the App</a>
+  <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="nav-cta" onclick="gtag('event', 'cta_click', {'cta_location': 'nav'});">Get the App</a>
 </nav>
 
 <!-- HERO -->
@@ -542,7 +550,7 @@
   <h1>Your money,<br><em>finally under control</em></h1>
   <p class="hero-sub">BudgetBuddy tracks every rupee, spots your spending patterns, and gives you a clear picture of your financial life, all in one simple app.</p>
   <div class="hero-actions">
-    <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="btn-primary">
+    <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="btn-primary" onclick="gtag('event', 'cta_click', {'cta_location': 'hero'});">
       <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
       Download Free
     </a>
@@ -941,7 +949,7 @@
       <div class="section-eyebrow">See it in action</div>
       <h2>Watch BudgetBuddy in 60 seconds</h2>
       <p class="section-lead">A real screen recording of the app, from logging a transaction to checking your net worth. No mockups, just the actual experience.</p>
-      <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="btn-primary">
+      <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="btn-primary" onclick="gtag('event', 'cta_click', {'cta_location': 'video_demo'});">
         <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
         Download Free
       </a>
@@ -1099,7 +1107,7 @@
         <li><span class="check">✓</span> Bill reminders & recurring entries</li>
         <li><span class="check">✓</span> No ads</li>
       </ul>
-      <a href="#cta" class="plan-btn outline">Start 7-Day Free Trial</a>
+      <a href="#cta" class="plan-btn outline" onclick="gtag('event', 'trial_click', {'plan': 'monthly'});">Start 7-Day Free Trial</a>
       <div class="plan-note">No credit card required</div>
     </div>
     <div class="price-card featured reveal">
@@ -1116,7 +1124,7 @@
         <li><span class="check">✓</span> Bill reminders & recurring entries</li>
         <li><span class="check">✓</span> No ads</li>
       </ul>
-      <a href="#cta" class="plan-btn solid">Start 7-Day Free Trial</a>
+      <a href="#cta" class="plan-btn solid" onclick="gtag('event', 'trial_click', {'plan': 'yearly'});">Start 7-Day Free Trial</a>
       <div class="plan-note">No credit card required</div>
     </div>
   </div>
@@ -1127,7 +1135,7 @@
   <h2 class="reveal">Ready to take back control?</h2>
   <p class="reveal">Join 50,000+ people who've already transformed how they manage money. It's free to start, always.</p>
   <div class="store-buttons reveal">
-    <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="store-btn">
+    <a href="https://play.google.com/store/apps/details?id=com.sadew.budgetbuddy" target="_blank" rel="noopener" class="store-btn" onclick="gtag('event', 'cta_click', {'cta_location': 'final_cta_band'});">
       <span class="store-btn-icon">▶</span>
       <div class="store-btn-text">
         <span class="store-btn-sub">GET IT ON</span>
